@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SecondViewController.swift
 //  Sample
 //
 //  Created by 水垣岳志 on 2018/01/24.
@@ -8,48 +8,43 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SecondViewController: UIViewController {
 
-    @IBOutlet weak var label: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        print("\(#function)")
+        print("Second : \(#function)")
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-        print("\(#function)")
+        print("Second : \(#function)")
     }
 
     override func loadView() {
         super.loadView()
-        print("\(#function)")
+        print("Second : \(#function)")
     }
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        print("\(#function)")
+        print("Second : \(#function)")
     }
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        print("\(#function)")
+        print("Second : \(#function)")
     }
 
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        print("\(#function)")
+        print("Second : \(#function)")
     }
 
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
-        print("\(#function)")
+        print("Second : \(#function)")
     }
 
-    @IBAction func buttonTapped(_ sender: UIButton) {
-        label.text = "Tapped!"
-    }
 }
-
